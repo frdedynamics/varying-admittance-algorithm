@@ -1,4 +1,7 @@
-numpy
-colorlog
+pytest
+pytest-cov
+python-coveralls
 flake8
+colorlog
 tzlocal
+numpy
