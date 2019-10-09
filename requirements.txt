@@ -1,0 +1,4 @@
+numpy
+colorlog
+flake8
+tzlocal
