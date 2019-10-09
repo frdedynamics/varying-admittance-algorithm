@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/frdedynamics/varying-admittance-algorithm.svg?branch=master)](https://travis-ci.org/frdedynamics/varying-admittance-algorithm) [![Coverage Status](https://coveralls.io/repos/github/frdedynamics/varying-admittance-algorithm/badge.svg?branch=master)](https://coveralls.io/github/frdedynamics/varying-admittance-algorithm?branch=master)
+
 # varying-admittance-algorithm
 vary some admittance
 
