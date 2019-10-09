@@ -25,7 +25,7 @@ class TestParameterAdaption(unittest.TestCase):
 
     def test_compute_detection_index(self):
         self.assertTrue(True)
-        # self.fail(msg="Needs test.")
+        self.fail(msg="Needs test.")
 
 
 if __name__ == '__main__':
