@@ -13,8 +13,10 @@ class TestParameterAdaption(unittest.TestCase):
         delta_t = 0.1
         delta_M = np.eye(6) * 0.1
         A = np.array([0.3, 0.3, 0.3, 0.04, 0.04, 0.02])
+        X_bar_dot = np.ones(6)
 
-        self.parameter_adaption = package_mojo.ParameterAdaption(M_0, D_0, beta, epsilon, delta_t, delta_M, A)
+        self.parameter_adaption = package_mojo.ParameterAdaption(
+            M_0, D_0, beta, epsilon, delta_t, delta_M, A, X_bar_dot)
 
     def test_reset_values(self):
         self.assertTrue(self.parameter_adaption.reset_values())
